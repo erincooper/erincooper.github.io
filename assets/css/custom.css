@@ -1,0 +1,48 @@
+.btn {
+  background-color: #96CDCD;
+}
+
+@font-face {
+  font-family: UniversLTStd-LightCn;
+  src: url("font/UniversLTStd-LightCn.otf");
+}
+
+#navbar-logo {
+  margin: 5px;
+}
+
+.spacingtop {
+  padding-top: 20px!important;
+}
+
+@font-face {
+  font-family: UniversLTStd-Bold;
+  src: url("font/UniversLTStd-Bold.otf");
+}
+
+@font-face {
+  font-family: UniversLTStd-Light;
+  src: url("font/UniversLTStd-Light.otf");
+}
+
+@font-face {
+  font-family: UniversLTStd;
+  src: url("font/UniversLTStd.otf");
+}
+
+#erin-cooper {
+  display: inline-grid;
+  margin-top: -48px;
+  margin-left: 58px;
+}
+
+#graphic-design {
+  margin-top: -14px;
+  margin-left: 58px;
+  margin-bottom: -5px;
+}
+
+#logo {
+  text-decoration: none;
+  color: black;
+}
