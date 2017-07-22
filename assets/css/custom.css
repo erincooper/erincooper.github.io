@@ -9,6 +9,7 @@
 
 #navbar-logo {
   margin: 5px;
+  width: 45px;
 }
 
 .spacingtop {
@@ -31,18 +32,78 @@
 }
 
 #erin-cooper {
-  display: inline-grid;
-  margin-top: -48px;
+  margin-top: -47px!important;
   margin-left: 58px;
 }
 
 #graphic-design {
   margin-top: -14px;
   margin-left: 58px;
-  margin-bottom: -5px;
+  margin-bottom: 0px;
 }
 
 #logo {
   text-decoration: none;
   color: black;
+}
+
+#theContainer {
+  width: auto;
+  /*background-color: lightgrey;*/
+  padding: 0px 50px;
+}
+
+#data_poster {
+  height: 80%;
+  display: inline-block;
+}
+
+.Copy {
+  display: inline-block;
+  width: 40vw;
+  vertical-align: top;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+#data_poster_square:hover {
+  opacity: 0.5;
+}
+
+/*#just_words {
+  margin-left: 15px;
+}*/
+
+
+#just_words:hover {
+  opacity: 0.5;
+}
+
+
+#theProjects {
+  width: auto;
+  background-color: lightgrey;
+}
+
+@media only screen and (max-width: 850px) {
+  #theContainer {
+    text-align: center;
+    padding: 0px;
+  }
+  .Copy {
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  /*#data_poster {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }*/
 }

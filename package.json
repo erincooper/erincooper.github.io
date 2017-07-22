@@ -1,0 +1,12 @@
+{
+  "name": "ErinCooper",
+  "version": "1.0.0",
+  "description": "Erin's personal website",
+  "author": "Erin Cooper",
+  "repository": "https://github.com/erincooper/erincooper.github.io",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "browser-sync": "2.18.12"
+  }
+}
