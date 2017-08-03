@@ -1,0 +1,70 @@
+.x_border {
+  border: 4px solid lightgrey;
+  width: 350px;
+  margin: 10px
+}
+
+#xactoContainer {
+  padding-bottom: 50px;
+}
+
+#xactoContainer hr {
+  display: inline-block;
+  border: 1px solid lightgrey;
+  height: 0px;
+  width: 81%;
+}
+
+#xactoContainer h4 {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 3px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#xactoContainer hr {
+  display: inline-block;
+  height: 0px;
+  border: 1px solid grey;
+  width: 80%;
+}
+
+#xactoContainer h4 {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 3px;
+  padding-right: 5px;
+}*/

@@ -11,5 +11,5 @@ browserSync.init({
 var currentSession = require('browser-sync').get('myServer');
 currentSession.watch('*.html').on('change', currentSession.reload);
 console.log("Watching HTML files...");
-currentSession.watch('assets/css/custom.css').on('change', currentSession.reload);
-console.log("Watching custom.css...");
+currentSession.watch('assets/css/*.css').on('change', currentSession.reload);
+console.log("Watching all CSS files...");

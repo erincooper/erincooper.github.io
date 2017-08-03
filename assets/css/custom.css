@@ -47,54 +47,9 @@
   color: black;
 }
 
-#theContainer {
-  width: auto;
-  /*background-color: lightgrey;*/
-  padding: 0px 50px;
-}
-
 #data_poster {
   height: 80%;
   display: inline-block;
-}
-
-#just_words_light {
-  height: 80%;
-  display: inline-block;
-  border: 4px solid lightgrey;
-}
-
-.data_mining_image img {
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 10px;
-}
-
-#data_mining_left {
-  width: 70%;
-  display: inline-block;
-  vertical-align: top;
-}
-
-#data_mining_copy {
-  width: 29%;
-  display: inline-block;
-  vertical-align: top;
-  padding: 20px;
-}
-
-@media only screen and (max-width: 992px) {
-  #data_mining_left {
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-    width: 100%;
-  }
-  #data_mining_copy {
-    display: block;
-    width: 100%;
-    margin: auto;
-  }
 }
 
 .Copy {
@@ -104,67 +59,17 @@
   padding: 20px;
 }
 
-#just_words_orange {
-  width: 300px;
-}
-
-#data_poster_square:hover {
-  opacity: 0.5;
-}
-
-/*#just_words {
-  margin-left: 15px;
-}*/
-
-
-#just_words:hover {
-  opacity: 0.5;
-}
-
-#dissonance_square:hover {
-  opacity: 0.5;
-}
-
-#data_mining_square:hover {
-  opacity: 0.5;
-}
-
-#xacto_square:hover {
-  opacity: 0.5;
-}
-
-#data_mining_square:hover {
-  opacity: 0.5;
-}
-
-#theProjects {
+#theContainer {
   width: auto;
-  background-color: lightgrey;
-}
-
-#theProjects img {
-  margin-bottom: 4px;
+  padding: 0px 50px;
 }
 
 @media only screen and (max-width: 850px) {
+  .navbar {
+    margin-bottom: 0px;
+  }
   #theContainer {
     text-align: center;
     padding: 0px;
   }
-  .Copy {
-    text-align: left;
-    width: 400px;
-    max-width: 100%;
-  }
-  .navbar {
-    margin-bottom: 0px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  /*#data_poster {
-    display: block;
-    margin: auto;
-    width: 100%;
-  }*/
 }

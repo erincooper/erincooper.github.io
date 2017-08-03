@@ -1,0 +1,27 @@
+#theProjects {
+  width: auto;
+}
+
+#data_poster_square:hover {
+  opacity: 0.5;
+}
+
+#just_words_square:hover {
+  opacity: 0.5;
+}
+
+#dissonance_square:hover {
+  opacity: 0.5;
+}
+
+#data_mining_square:hover {
+  opacity: 0.5;
+}
+
+#xacto_square:hover {
+  opacity: 0.5;
+}
+
+#theProjects img {
+  margin-bottom: 4px;
+}
