@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/just_words.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
     <font face="UniversLTStd-LightCn">
   </head>
 
@@ -37,7 +38,17 @@
     </div>
 
     <div class="container" id="theContainer">
-      <img src="assets/images/just_words_light.png" id="just_words_light">
+      <a href="#" id="myBtn">
+        <img src="assets/images/just_words_light.png" id="just_words_light">
+      </a>
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="assets/images/just_words_light_hd.png" class="modal_image">
+        </div>
+      </div>
+
       <div class="Copy">
         <p>
           Identity Theft Expressive Type Poster <br>
@@ -59,5 +70,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/modal.js"></script>
   </body>
 </html>
