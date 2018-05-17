@@ -1,0 +1,18 @@
+
+#data_poster {
+  height: 80%;
+  display: inline-block;
+  border: 4px solid lightgrey;
+}
+
+@media only screen and (max-width: 850px) {
+  #theContainer {
+    text-align: center;
+    padding: 0px;
+  }
+  .Copy {
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+  }
+}
